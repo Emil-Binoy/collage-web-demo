@@ -1,0 +1,83 @@
+/* General setup */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Goldman:wght@400;700&family=Michroma&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+header, section, aside, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+.name{
+    text-align: center;
+}
+img{
+    height: 10px;
+}
+.more{
+    font-size: 12px;
+}
+nav ul li,a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.btn {
+  border: solid brown;
+  text-align: center;
+  margin: 40px 10px ;
+  
+}
+.btn:hover{
+  background: brown;
+  color: #000;
+}
+.btn a:hover{
+  
+  color: white;
+}
+
+.btn a{
+  color: #a66;
+  padding: 0px 50px;
+}
